@@ -35,11 +35,11 @@ export class LayoutService {
     config: AppConfig = {
         ripple: true,
         inputStyle: 'outlined',
-        menuMode: 'compact',
+        menuMode: 'static',
         colorScheme: 'light',
         theme: 'blue',
         scale: 14,
-        menuTheme: 'darkgray'
+        menuTheme: 'white'
     };
 
     state: LayoutState = {

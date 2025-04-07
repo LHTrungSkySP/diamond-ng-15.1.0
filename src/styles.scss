@@ -16,3 +16,19 @@ $gutter: 1rem; //for primeflex grid system
 @import "assets/demo/styles/flags/flags.css";
 @import "assets/demo/styles/badges.scss";
 @import "assets/demo/styles/code.scss";
+
+.layout-menu .layout-root-menuitem > .layout-menuitem-root-text{
+    font-size: 1.2rem;
+}
+.layout-menu ul a{
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 1729px) {
+    .landing-wrapper, .layout-content {
+        width: 100%;
+    }
+}
+
+.card-layout {
+    height: calc(100vh - 12rem);
+}
